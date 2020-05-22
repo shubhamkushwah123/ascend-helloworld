@@ -1,7 +1,6 @@
----
 version: 1
 applications:
 - name: my-app
   memory: 512M
   instances: 1
-  path: target/war-test-0.0.1-SNAPSHOT.war
+  path: **/*.war
