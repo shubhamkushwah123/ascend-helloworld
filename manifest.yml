@@ -3,4 +3,4 @@ version: 1
 applications:
 - name: my-app
   memory: 512M
-  instances: 2
+  instances: 1
