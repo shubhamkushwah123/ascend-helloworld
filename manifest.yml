@@ -1,3 +1,6 @@
+---
+version: 1
 applications:
-  - name: ascend-helloworld
-  - memory: 512M
+- name: my-app
+  memory: 512M
+  instances: 2
