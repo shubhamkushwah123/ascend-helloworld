@@ -3,5 +3,5 @@ applications:
 - name: ascend-test-app
   memory: 512M
   instances: 1
-  path: target/*.jar
+  path: target/HelloWorld-0.0.1-SNAPSHOT.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
