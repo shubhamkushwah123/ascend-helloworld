@@ -3,5 +3,5 @@ applications:
 - name: bluemix-spring-todos
   memory: 512M
   instances: 1
-  path: **/*.war
+  path: **/*.jar
   buildpack: https://github.com/cloudfoundry/java-buildpack
